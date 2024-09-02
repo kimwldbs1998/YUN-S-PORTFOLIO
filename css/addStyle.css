@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+#skill1 {
+  box-sizing: border-box;
+  width: 100%;
+  height: 300px;
+  margin: 20px auto;
+  border: 2px solid #ced4da;
+}
+
+.mainImg{
+	margin-top: 50px;
+	margin-left: 135px;
+	margin-bottom: 37px;
+}
+.close-modal img{
+	width:70%;
+}
+.mxHeight700{
+    max-height: 700px;
+}
+.overflowAuto {
+	overflow: auto
+}
+.overflowAuto::-webkit-scrollbar {
+    width: 8px;  /* 스크롤바의 너비 */
+}
+
+.overflowAuto::-webkit-scrollbar-thumb {
+    height: 30%; /* 스크롤바의 길이 */
+    background: #217af4; /* 스크롤바의 색상 */
+
+    border-radius: 10px;
+}
+
+.overflowAuto::-webkit-scrollbar-track {
+    background: rgba(33, 122, 244, .1);  /*스크롤바 뒷 배경 색상*/
+}
+body::-webkit-scrollbar {
+    width: 8px;  /* 스크롤바의 너비 */
+}
+
+body::-webkit-scrollbar-thumb {
+    height: 30%; /* 스크롤바의 길이 */
+    background: #217af4; /* 스크롤바의 색상 */
+
+    border-radius: 10px;
+}
+body::-webkit-scrollbar-track {
+    background: rgba(33, 122, 244, .1);  /*스크롤바 뒷 배경 색상*/
+}

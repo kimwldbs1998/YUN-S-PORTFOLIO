@@ -7,7 +7,9 @@
   margin: 20px auto;
   border: 2px solid #ced4da;
 }
-
+.textBlack{
+	color:black;
+}
 .mainImg{
 	margin-top: 50px;
 	margin-left: 135px;

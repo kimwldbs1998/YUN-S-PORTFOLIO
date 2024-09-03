@@ -74,7 +74,7 @@ body::-webkit-scrollbar-track {
 .modal-content {
 	width: 50%;
 }
-
+/* 슬라이드 시작 */
 @keyframes slider {
   0% {
     transform: translateX(0);
@@ -172,4 +172,12 @@ body::-webkit-scrollbar-track {
 .project8:nth-child(3) {
   background-image: url(../assets/img/portfolio/8/8-3.png);
   animation-delay: -5s;
+}
+/* 슬라이드 종료 */
+
+.divImg > img{
+    margin-right: 1rem;
+    width: 150px;
+    height: 130px;
+    object-fit: contain;
 }

@@ -23,6 +23,7 @@
     </head>
     <script>
     	$( document ).ready(function() {
+    		// 경력 계산기
     		var oldDate = new Date('2020-01-06');
     		var newDate = new Date();
     		var diff = newDate.getTime() - oldDate.getTime();
@@ -66,64 +67,38 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">About me</h2>
-                    <h3 class="section-subheading text-muted">Jiyun is</h3>
                 </div>
-                <div class="row text-center">
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-user fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">이름</h4>
-                        <p class="text-muted">김지윤</p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-smile fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">생년월일</h4>
-                        <p class="text-muted">1998.02.03</p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-address-card fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">경력사항</h4>
-                        <p class="text-muted">
-                        	<div style="display:flex;justify-content: center;">
-                        		총&nbsp;<div id="phYear"></div>년<div id="phMonth"></div>개월
-                        	</div>
-                        </p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-phone fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">연락처</h4>
-                        <p class="text-muted">010-5173-1529<br>kimwldbs1998@naver.com</p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">학력</h4>
-                        <p class="text-muted">
-                        	한양여자대학교 정보경영과 졸업
+                <div class="row gx-4 gx-lg-5 align-items-center" style="margin-top: 5rem;">
+                    <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" src="https://dummyimage.com/600x700/dee2e6/6c757d.jpg" alt="..."></div>
+                    <div class="col-md-6">
+                        <h1 class="display-5 fw-bolder">행복하자</h1>
+                        <div class="fs-6 mb-5">
+                            <span>010-5173-1529 / kimwldbs1998@naver.com</span>
+                        </div>
+                        <p class="lead">
+                        	안녕하세요 웹개발자 김지윤입니다.
                         	<br>
-                        	인천대학교 정보기술대학원 컴퓨터학과 졸업
+                        	협력적인 성격으로 팀과의 원활한 소통을 중요시 하며, 문제 해결을 위한 창의적인 접근과 긍정적인 마인드를 갖추고 있어 어려운 상황에서도 유연하게 대처할 수 있습니다.
                         </p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-graduation-cap fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">논문</h4>
-                        <p class="text-muted">메타버스 기술을 활용한 <br> 폭력 예방 교육 콘텐츠 설계 및 개발</p>
+                        <br>
+						<p class="lead">
+                        	<h3 class="fw-bolder">PROFILE</h3>
+                        	🎂&nbsp;1998년 2월 3일 출생
+                        	<br>
+                        	🏫&nbsp;2016.03 ~ 2020.02 한양여자대학교 정보경영과 졸업
+                        	<br>
+                        	🧑‍🎓&nbsp;2021.03 ~ 2023.02 인천대학교 정보기술대학원 컴퓨터학과 졸업
+                        </p>
+                        <br>
+						<p class="lead">
+                        	<div style="display:flex;align-items: center;">
+                        		<h3 class="fw-bolder">CAREER</h3>&nbsp;&nbsp;
+                        		(총&nbsp;<div id="phYear"></div>년<div id="phMonth"></div>개월)
+                        	</div>
+                        	- 2022.12 ~ 이즈파크
+                        	<br>
+                        	- 2020.01 ~ 2022.11 무한정보기술
+                        </p>
                     </div>
                 </div>
             </div>
@@ -135,12 +110,11 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">SKILLS</h2>
-                    <h3 class="section-subheading text-muted">Skill that I can do.</h3>
                 </div>
                 <div class="row text-center">
                     <div class="col-md-6">
                             <h4 class="my-2">Frontend</h4>
-                            <div id="">
+                            <div class="">
                                 <!-- 자바스크립트 -->
                                 <img src="https://t1.daumcdn.net/cfile/tistory/2149683A58CA6BF313" style="width: 150px"/>
                                 <!-- jquery -->
@@ -174,7 +148,6 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">PROJECT</h2>
-                    <h3 class="section-subheading text-muted">The project that I did.</h3>
                 </div>
                 <div class="row">
 
@@ -205,7 +178,7 @@
                                 <img class="mainImg" src="	https://static-cdn.bok.or.kr/static/portal/img/main/logo.png" alt="한국은행"/>
                                 <div class="portfolio-caption">
 	                                <div class="portfolio-caption-heading">2023.08 ~ 2024.04</div>
-	                                <div class="portfolio-caption-subheading text-muted">직원평가 시스템 재구축 사업</div>
+	                                <div class="portfolio-caption-subheading text-muted">한국은행 직원평가 시스템 재구축 개발 용역</div>
 	                            </div>
                             </a>
                         </div>
@@ -222,7 +195,7 @@
                                 <img class="mainImg" style="margin-left: 100px;" src="https://www.icjg.go.kr/humanframe/theme/icjg/assets/images/common/logo.gif" alt="인천중구교육포털배우는바다"/>
                                 <div class="portfolio-caption">
 	                                <div class="portfolio-caption-heading">2022.12 ~ 2023.07</div>
-	                                <div class="portfolio-caption-subheading text-muted">인천중구 교육포털 구축</div>
+	                                <div class="portfolio-caption-subheading text-muted">평생학습센터 홈페이지 고도화를 통한 인천중구 교육포털 구축용역</div>
 	                            </div>
                             </a>
                         </div>
@@ -535,7 +508,7 @@
                                     <h2 class="text-uppercase">인천중구 교육포털 배우는 바다</h2>
                                     <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6.png" alt="인천중구 교육포털 배우는 바다" />
-                                    <p>인천중구 교육포털 배우는 바다</p>
+                                    <p>평생학습센터 홈페이지 고도화를 통한 인천중구 교육포털 구축용역</p>
                                     <ul class="list-inline">
                                         <li>
                                             <strong>url :</strong>
@@ -569,24 +542,30 @@
                     <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
                     <div class="container">
                         <div class="row justify-content-center">
-                            <div class="col-lg-8 mxHeight700">
+                            <div class="col-lg-8 mxHeight825">
                                 <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h3 class="text-uppercase">직원평가 시스템 재구축 사업</h3>
+                                	<!-- Project details-->
+                                    <h3 class="text-uppercase">한국은행 직원평가 시스템 재구축 개발 용역</h3>
                                     <p class="item-intro text-muted">발주사 : 한국은행</p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/7.png" alt="한국은행 직원평가시스템" />
-                                    <p>직원평가 시스템 재구축 사업</p>
-                                    <ul class="list-inline">
+                                    <p>2023.08 ~ 2024.04(약 8개월)</p>
+                                    <hr>
+                                    <ul class="list-inline textLeft">
                                         <li>
-                                            <strong>url :</strong>내부로 인해 사용불가
+                                            <strong>1. 개발 PL예행연습</strong>
+                                            <p class="ms-1">- 짧은시간내에 많은 내용을 개발해야했기에 일정체크 후 남은기능 분배</p>
+                                            <strong>2. 화면 기능 개발</strong>
+                                            <p class="ms-1">- eGovFrame을 기준으로 프로젝트 초기세팅</p>
+                                            <p class="ms-1">- 성과평가 대상자 선별, 평가자 및 평가대상자 매핑, 평가자 확인(라인확인), 성과평가 진행 및 결과조정 등의 성과평가의 프로세스 개발</p>
+                                            <strong>3. 소스 관리 / 배포</strong>
+                                            <p class="ms-1">- SVN을 이용해 소스 관리</p>
+                                            <p class="ms-1">- Weblogic으로 운영 배포</p>
                                         </li>
-                                        <br>
+                                        <hr>
                                         <li>
-                                            <strong>LANGUAGE : </strong>Java, JSP, Java Script, JSON, jquery, Cubrid
-                                        </li>
-                                        <br>
-                                        <li>
-                                            <strong>PERIOD : </strong>2023.08 ~ 2024.04(약 8개월)
+                                        	🍀 한국은행에서 사용하는 직원 평가 시스템을 구축하는 프로젝트입니다.
+                                        	초기세팅부터 성과평가 진행 및 결과조정까지의<d class="strongText">직원평가의 핵심기능을 맡아 진행</d>했습니다.
+                                        	개발 PL예행연습을 하며 인력관리에 대한 어려움은 분명히 존재했지만, 프로젝트 팀원들과 함께 의지하며 잘 마무리할 수 있었습니다.
                                         </li>
                                     </ul>
                                 </div>
@@ -597,6 +576,51 @@
             </div>
         </div>
         <!-- 한국은행 끝 -->
+
+        <!-- 무역협회 시작 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content overflowAuto">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8 mxHeight825">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h3 class="text-uppercase">AI기술활용 회원서비스 고도화사업</h3>
+                                    <p class="item-intro text-muted">발주사 : 무역협회</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/7.png" alt="한국은행 직원평가시스템" />
+                                    <p>2024.05 ~ 2024.09(약 5개월)</p>
+                                    <hr>
+                                    <ul class="list-inline textLeft">
+                                        <li>
+                                            <strong>1. AI API 연계</strong>
+                                            <p class="ms-1">- 맞춤법검사, 내용 요약, 질의응답을 위해  AI API와의 연계를 진행</p>
+                                            <p class="ms-1">- OCR 검증을 위해 네이버 클라우드와 연계하는 API를 호출하는 기능 진행</p>
+                                            <strong>2. 화면 기능 개발</strong>
+                                            <p class="ms-1">- 포상신청서에 필요한 AI 맞춤법검사, AI 요약 기능을 위한 화면 개발</p>
+                                            <p class="ms-1">- 1:1상담, 오픈상담, AI 상담 등의 상담 전 AI를 이용한 질의응답  화면 개발</p>
+                                            <p class="ms-1">- 무역의날 기념식 포상 수상자에 대한 QR발송</p>
+                                            <p class="ms-1">- 반응형 웹으로 개발</p>
+                                            <strong>3. 소스 관리 / 배포</strong>
+                                            <p class="ms-1">- Git을 이용해 소스 관리</p>
+                                            <p class="ms-1">- 칵테일 클라우드로 운영 배포</p>
+                                        </li>
+                                        <hr>
+                                        <li>
+                                        	🍀무역의 날 행사를 위한  기능 고도화 프로젝트입니다.
+                                        	포상신청서에 필요한 AI 맞춤법검사, AI 요약 등을 추가하며 네이버 클라우드와 연계하는 API를 호출하는 기능 진행했으며
+                                        	반응형 웹으로 개발해 퍼블과 관련해 한층 더 배우는 계기가 되었습니다.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 무역협회 끝 -->
 
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>

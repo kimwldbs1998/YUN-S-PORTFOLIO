@@ -5531,7 +5531,6 @@ textarea.form-control-lg {
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 50%;
   pointer-events: auto;
   background-color: #fff;
   background-clip: padding-box;

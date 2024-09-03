@@ -61,3 +61,115 @@ body::-webkit-scrollbar-track {
 	color: red;
 	font-weight: bolder !important;
 }
+@media (max-width: 1023.98px) {
+	.modal-content{
+	    width: 100%!important;
+	}
+}
+@media (max-width: 767.98px) {
+	.modal-content{
+	    width: 100%!important;
+	}
+}
+.modal-content {
+	width: 50%;
+}
+
+@keyframes slider {
+  0% {
+    transform: translateX(0);
+  }
+
+  26% {
+    transform: translateX(0);
+  }
+  33% {
+    transform: translateX(-100%);
+    animation-timing-function: step-end;
+  }
+  93% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+.slider {
+  position: relative;
+  overflow: hidden;
+  width: 36rem;
+  height: 22rem;
+}
+.project6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  object-fit:cover;
+  background-position: center;
+  animation: slider 7.5s infinite linear;
+}
+
+.project6:nth-child(1) {
+  background-image: url(../assets/img/portfolio/6/6-1.png);
+  animation-delay: 0;
+}
+.project6:nth-child(2) {
+  background-image: url(../assets/img/portfolio/6/6-2.png);
+  animation-delay: -2.5s;
+}
+.project6:nth-child(3) {
+  background-image: url(../assets/img/portfolio/6/6-3.png);
+  animation-delay: -5s;
+}
+.project7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  object-fit:cover;
+  background-position: center;
+  animation: slider 7.5s infinite linear;
+}
+
+.project7:nth-child(1) {
+  background-image: url(../assets/img/portfolio/7/7-1.png);
+  animation-delay: 0;
+}
+.project7:nth-child(2) {
+  background-image: url(../assets/img/portfolio/7/7-2.png);
+  animation-delay: -2.5s;
+}
+.project7:nth-child(3) {
+  background-image: url(../assets/img/portfolio/7/7-3.png);
+  animation-delay: -5s;
+}
+.project8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  object-fit:cover;
+  background-position: center;
+  animation: slider 7.5s infinite linear;
+}
+
+.project8:nth-child(1) {
+  background-image: url(../assets/img/portfolio/8/8-1.png);
+  animation-delay: 0;
+}
+.project8:nth-child(2) {
+  background-image: url(../assets/img/portfolio/8/8-2.png);
+  animation-delay: -2.5s;
+}
+.project8:nth-child(3) {
+  background-image: url(../assets/img/portfolio/8/8-3.png);
+  animation-delay: -5s;
+}

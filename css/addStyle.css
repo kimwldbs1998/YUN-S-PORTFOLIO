@@ -15,8 +15,8 @@
 .close-modal img{
 	width:70%;
 }
-.mxHeight700{
-    max-height: 700px;
+.mxHeight825{
+    max-height: 825px;
 }
 .overflowAuto {
 	overflow: auto
@@ -27,7 +27,7 @@
 
 .overflowAuto::-webkit-scrollbar-thumb {
     height: 30%; /* 스크롤바의 길이 */
-    background: #217af4; /* 스크롤바의 색상 */
+    background: #ffc800; /* 스크롤바의 색상 */
 
     border-radius: 10px;
 }
@@ -41,10 +41,23 @@ body::-webkit-scrollbar {
 
 body::-webkit-scrollbar-thumb {
     height: 30%; /* 스크롤바의 길이 */
-    background: #217af4; /* 스크롤바의 색상 */
+    background: #ffc800; /* 스크롤바의 색상 */
 
     border-radius: 10px;
 }
 body::-webkit-scrollbar-track {
     background: rgba(33, 122, 244, .1);  /*스크롤바 뒷 배경 색상*/
+}
+.textLeft{
+	text-align: left;
+}
+.textLeft > li{
+	margin-bottom: 1rem;
+}
+.textLeft > li > p{
+	margin-bottom: 0.2rem!important;
+}
+.strongText{
+	color: red;
+	font-weight: bolder !important;
 }

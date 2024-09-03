@@ -489,7 +489,7 @@ progress {
 }
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   font-weight: 300;
 }
 
@@ -4608,7 +4608,7 @@ textarea.form-control-lg {
 .card-img,
 .card-img-top,
 .card-img-bottom {
-  width: 100%;
+  width: 70%;
 }
 
 .card-img,
@@ -11434,8 +11434,8 @@ header.masthead .masthead-heading {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 17rem;
-    padding-bottom: 12.5rem;
+    padding-top: 20rem;
+    padding-bottom: 20.5rem;
   }
   header.masthead .masthead-subheading {
     font-size: 2.25rem;

@@ -104,59 +104,27 @@ body::-webkit-scrollbar-track {
 	width: 50%;
 }
 /* 슬라이드 시작 */
-@
-keyframes slider { 0% {
-	transform: translateX(0);
+@keyframes slider {
+  0% {
+    transform: translateX(0);
+  }
+
+  26% {
+    transform: translateX(0);
+  }
+  33% {
+    transform: translateX(-100%);
+    animation-timing-function: step-end;
+  }
+  93% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
 }
 
-26%
-{
-transform
-:
-
-translateX
-(0);
-
-
-}
-33%
-{
-transform
-:
-
-translateX
-(-100%);
-
-
-animation-timing-function
-:
-
-step-end
-;
-
-
-}
-93%
-{
-transform
-:
-
-translateX
-(100%);
-
-
-}
-100%
-{
-transform
-:
-
-translateX
-(0);
-
-
-}
-}
 .slider {
 	position: relative;
 	overflow: hidden;

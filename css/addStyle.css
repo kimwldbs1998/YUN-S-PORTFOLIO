@@ -1,183 +1,252 @@
 @charset "UTF-8";
 
 #skill1 {
-  box-sizing: border-box;
-  width: 100%;
-  height: 300px;
-  margin: 20px auto;
-  border: 2px solid #ced4da;
+	box-sizing: border-box;
+	width: 100%;
+	height: 300px;
+	margin: 20px auto;
+	border: 2px solid #ced4da;
 }
-.mainImg{
+
+.skillWork {
+	height: 120px;
+	font-size: 44px;
+	margin-left: 114px;
+	margin-top: 14px;
+	color: black;
+	padding-top: 23px;
+}
+
+.mainImg {
 	margin-top: 50px;
 	margin-left: 135px;
 	margin-bottom: 37px;
 }
-.close-modal img{
-	width:70%;
+
+.close-modal img {
+	width: 70%;
 }
-.mxHeight825{
-    max-height: 825px;
+
+.mxHeight825 {
+	max-height: 825px;
 }
+
 .overflowAuto {
 	overflow: auto
 }
+
 .overflowAuto::-webkit-scrollbar {
-    width: 8px;  /* 스크롤바의 너비 */
+	width: 8px; /* 스크롤바의 너비 */
 }
 
 .overflowAuto::-webkit-scrollbar-thumb {
-    height: 30%; /* 스크롤바의 길이 */
-    background: #ffc800; /* 스크롤바의 색상 */
-
-    border-radius: 10px;
+	height: 30%; /* 스크롤바의 길이 */
+	background: #ffc800; /* 스크롤바의 색상 */
+	border-radius: 10px;
 }
 
 .overflowAuto::-webkit-scrollbar-track {
-    background: rgba(33, 122, 244, .1);  /*스크롤바 뒷 배경 색상*/
+	background: rgba(33, 122, 244, .1); /*스크롤바 뒷 배경 색상*/
 }
+
 body::-webkit-scrollbar {
-    width: 8px;  /* 스크롤바의 너비 */
+	width: 8px; /* 스크롤바의 너비 */
 }
 
 body::-webkit-scrollbar-thumb {
-    height: 30%; /* 스크롤바의 길이 */
-    background: #ffc800; /* 스크롤바의 색상 */
+	height: 30%; /* 스크롤바의 길이 */
+	background: #ffc800; /* 스크롤바의 색상 */
+	border-radius: 10px;
+}
 
-    border-radius: 10px;
-}
 body::-webkit-scrollbar-track {
-    background: rgba(33, 122, 244, .1);  /*스크롤바 뒷 배경 색상*/
+	background: rgba(33, 122, 244, .1); /*스크롤바 뒷 배경 색상*/
 }
-.textLeft{
+
+.textLeft {
 	text-align: left;
 }
-.textLeft > li{
+
+.textLeft>li {
 	margin-bottom: 1rem;
 }
-.textLeft > li > p{
-	margin-bottom: 0.2rem!important;
+
+.textLeft>li>p {
+	margin-bottom: 0.2rem !important;
 }
-.strongText{
+
+.strongText {
 	color: red;
 	font-weight: bolder !important;
 }
-@media (max-width: 1023.98px) {
-	.modal-content{
-	    width: 100%!important;
+
+@media ( max-width : 1199.98px) {
+	.modal-content {
+		width: 90% !important;
+	}
+	.project6, .project7, .project8 {
+		width: 80% !important;
+		height: 80% !important;
 	}
 }
-@media (max-width: 767.98px) {
-	.modal-content{
-	    width: 100%!important;
+
+@media ( max-width : 767.98px) {
+	.modal-content {
+		width: 90% !important;
+	}
+	.project6, .project7, .project8 {
+		width: 70% !important;
+		height: 70% !important;
 	}
 }
+
 .modal-content {
 	width: 50%;
 }
 /* 슬라이드 시작 */
-@keyframes slider {
-  0% {
-    transform: translateX(0);
-  }
+@
+keyframes slider { 0% {
+	transform: translateX(0);
+}
 
-  26% {
-    transform: translateX(0);
-  }
-  33% {
-    transform: translateX(-100%);
-    animation-timing-function: step-end;
-  }
-  93% {
-    transform: translateX(100%);
-  }
+26%
+{
+transform
+:
 
-  100% {
-    transform: translateX(0);
-  }
+translateX
+(0);
+
+
+}
+33%
+{
+transform
+:
+
+translateX
+(-100%);
+
+
+animation-timing-function
+:
+
+step-end
+;
+
+
+}
+93%
+{
+transform
+:
+
+translateX
+(100%);
+
+
+}
+100%
+{
+transform
+:
+
+translateX
+(0);
+
+
+}
 }
 .slider {
-  position: relative;
-  overflow: hidden;
-  width: 36rem;
-  height: 22rem;
+	position: relative;
+	overflow: hidden;
+	width: 36rem;
+	height: 22rem;
 }
+
 .project6 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  object-fit:cover;
-  background-position: center;
-  animation: slider 7.5s infinite linear;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	object-fit: cover;
+	background-position: center;
+	animation: slider 7.5s infinite linear;
 }
 
 .project6:nth-child(1) {
-  background-image: url(../assets/img/portfolio/6/6-1.png);
-  animation-delay: 0;
+	background-image: url(../assets/img/portfolio/6/6-1.png);
+	animation-delay: 0;
 }
+
 .project6:nth-child(2) {
-  background-image: url(../assets/img/portfolio/6/6-2.png);
-  animation-delay: -2.5s;
+	background-image: url(../assets/img/portfolio/6/6-2.png);
+	animation-delay: -2.5s;
 }
+
 .project6:nth-child(3) {
-  background-image: url(../assets/img/portfolio/6/6-3.png);
-  animation-delay: -5s;
+	background-image: url(../assets/img/portfolio/6/6-3.png);
+	animation-delay: -5s;
 }
+
 .project7 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  object-fit:cover;
-  background-position: center;
-  animation: slider 7.5s infinite linear;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	object-fit: cover;
+	background-position: center;
+	animation: slider 7.5s infinite linear;
 }
 
 .project7:nth-child(1) {
-  background-image: url(../assets/img/portfolio/7/7-1.png);
-  animation-delay: 0;
+	background-image: url(../assets/img/portfolio/7/7-1.png);
+	animation-delay: 0;
 }
+
 .project7:nth-child(2) {
-  background-image: url(../assets/img/portfolio/7/7-2.png);
-  animation-delay: -2.5s;
+	background-image: url(../assets/img/portfolio/7/7-2.png);
+	animation-delay: -2.5s;
 }
+
 .project7:nth-child(3) {
-  background-image: url(../assets/img/portfolio/7/7-3.png);
-  animation-delay: -5s;
+	background-image: url(../assets/img/portfolio/7/7-3.png);
+	animation-delay: -5s;
 }
+
 .project8 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  object-fit:cover;
-  background-position: center;
-  animation: slider 7.5s infinite linear;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	animation: slider 7.5s infinite linear;
 }
 
 .project8:nth-child(1) {
-  background-image: url(../assets/img/portfolio/8/8-1.png);
-  animation-delay: 0;
+	background-image: url(../assets/img/portfolio/8/8-1.png);
+	animation-delay: 0;
 }
+
 .project8:nth-child(2) {
-  background-image: url(../assets/img/portfolio/8/8-2.png);
-  animation-delay: -2.5s;
+	background-image: url(../assets/img/portfolio/8/8-2.png);
+	animation-delay: -2.5s;
 }
+
 .project8:nth-child(3) {
-  background-image: url(../assets/img/portfolio/8/8-3.png);
-  animation-delay: -5s;
+	background-image: url(../assets/img/portfolio/8/8-3.png);
+	animation-delay: -5s;
 }
 /* 슬라이드 종료 */
-
-.divImg > img{
-    margin-right: 1rem;
-    width: 150px;
-    height: 130px;
-    object-fit: contain;
+.divImg>img {
+	margin-right: 1rem;
+	width: 150px;
+	height: 130px;
+	object-fit: contain;
 }

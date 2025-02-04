@@ -19,21 +19,21 @@
         <link href="css/addStyle.css" rel="stylesheet" />
         <!-- 20240902 제이쿼리 추가 -->
         <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
-	<script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
     </head>
     <script>
-    
-    	$( document ).ready(function() {
-    		// 경력 계산기
-    		var oldDate = new Date('2020-01-06');
-    		var newDate = new Date();
-    		var diff = newDate.getTime() - oldDate.getTime();
-    		diff = Math.ceil(diff / (1000 * 60 * 60 * 24));
-    		diff = diff/365;
 
-    		$("#phYear").text(diff.toString().split('.')[0]);
-    		$("#phMonth").text(diff.toString().split('.')[1].slice(0, 1));
-    	});
+        $( document ).ready(function() {
+            // 경력 계산기
+            var oldDate = new Date('2020-01-06');
+            var newDate = new Date();
+            var diff = newDate.getTime() - oldDate.getTime();
+            diff = Math.ceil(diff / (1000 * 60 * 60 * 24));
+            diff = diff/365;
+
+            $("#phYear").text(diff.toString().split('.')[0]);
+            $("#phMonth").text(diff.toString().split('.')[1].slice(0, 1));
+        });
     </script>
 
     <body id="page-top">
@@ -71,7 +71,7 @@
                 </div>
                 <div class="row gx-4 gx-lg-5 align-items-center" style="margin-top: 5rem;">
                     <div class="col-md-6">
-                    	<img class="card-img-top mb-5 mb-md-0" src="assets/img/yun.jpg" alt="나" style="border-radius: 1%;">
+                        <img class="card-img-top mb-5 mb-md-0" src="assets/img/yun.jpg" alt="나" style="border-radius: 1%;">
                     </div>
                     <div class="col-md-6">
                         <h1 class="display-5 fw-bolder">BE HAPPY</h1>
@@ -79,28 +79,28 @@
                             <span>010-5173-1529 / kimwldbs1998@naver.com</span>
                         </div>
                         <p class="lead">
-                        	안녕하세요 웹개발자 김지윤입니다.
-                        	<br>
-                        	협력적인 성격을 바탕으로 팀과의 원활한 소통을 중요시하며, 문제 해결을 위해 창의적인 접근을 추구합니다. 긍정적인 마인드를 갖추고 있어 어려운 상황에서도 유연하게 대처할 수 있습니다.
+                            안녕하세요 웹개발자 김지윤입니다.
+                            <br>
+                            협력적인 성격을 바탕으로 팀과의 원활한 소통을 중요시하며, 문제 해결을 위해 창의적인 접근을 추구합니다. 긍정적인 마인드를 갖추고 있어 어려운 상황에서도 유연하게 대처할 수 있습니다.
                         </p>
                         <br>
-						<p class="lead">
-                        	<h3 class="fw-bolder">PROFILE</h3>
-                        	🎂&nbsp;1998년 2월 3일 출생
-                        	<br>
-                        	🏫&nbsp;2016.03 ~ 2020.02 한양여자대학교 정보경영과 졸업
-                        	<br>
-                        	🎓&nbsp;2021.03 ~ 2023.02 인천대학교 정보기술대학원 컴퓨터학과 졸업
+                        <p class="lead">
+                            <h3 class="fw-bolder">PROFILE</h3>
+                            🎂&nbsp;1998년 2월 3일 출생
+                            <br>
+                            🏫&nbsp;2016.03 ~ 2020.02 한양여자대학교 정보경영과 졸업
+                            <br>
+                            🎓&nbsp;2021.03 ~ 2023.02 인천대학교 정보기술대학원 컴퓨터학과 졸업
                         </p>
                         <br>
-						<p class="lead">
-                        	<div style="display:flex;align-items: center;">
-                        		<h3 class="fw-bolder">CAREER</h3>&nbsp;&nbsp;
-                        		(총&nbsp;4년 11개월)
-                        	</div>
-                        	💼 2022.12 ~ 2024.11 이즈파크
-                        	<br>
-                        	💼 2020.01 ~ 2022.11 무한정보기술
+                        <p class="lead">
+                            <div style="display:flex;align-items: center;">
+                                <h3 class="fw-bolder">CAREER</h3>&nbsp;&nbsp;
+                                (총&nbsp;4년 11개월)
+                            </div>
+                            💼 2022.12 ~ 2024.11 이즈파크
+                            <br>
+                            💼 2020.01 ~ 2022.11 무한정보기술
                         </p>
                     </div>
                 </div>
@@ -116,12 +116,12 @@
                 </div>
                 <div class="row text-center mt-xxl-5">
                     <div>
-                    	<h3 class="fw-bolder">Frontend</h3>
+                        <h3 class="fw-bolder">Frontend</h3>
                         <div class="mt-xxl-4 divImg">
                             <!-- 자바스크립트 -->
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwr7hezbSLIzt0x_LcGYkOF0z4UKsj6QTEZA&s"/>
                             <!-- jquery -->
-                            <img src="https://jquery.com/wp-content/themes/jquery/images/logo-jquery.png"/>
+                            <img src="https://jquery.com/wp-content/themes/jquery/images/logo-jquery.png" style="background: #0769ad;"/>
                             <!-- jsp -->
                             <img src="https://t1.daumcdn.net/cfile/tistory/99716D335A01A6381D"/>
                             <!-- HTML -->
@@ -132,7 +132,7 @@
                     </div>
 
                     <div>
-                    	<h3 class="fw-bolder" style="margin-top:60px;">Backend / DB</h3>
+                        <h3 class="fw-bolder" style="margin-top:60px;">Backend / DB</h3>
                         <div class="divImg">
                             <!-- 자바 -->
                             <img src="https://images.velog.io/images/codemcd/post/13ef824a-175d-41aa-a766-a649bd855a2e/Java_Logo.png" />
@@ -148,7 +148,7 @@
                     </div>
 
                     <div>
-                    	<h3 class="fw-bolder" style="margin-top:60px;">etc</h3>
+                        <h3 class="fw-bolder" style="margin-top:60px;">etc</h3>
                         <div class="mt-xxl-4 divImg">
                             <!-- svn -->
                             <img src="https://upload.wikimedia.org/wikipedia/commons/2/22/Apache_Subversion_logo.svg"/>
@@ -195,7 +195,7 @@
                     <!-- 법무부 끝 -->
 
 
-					<!-- 무역협회 시작 -->
+                    <!-- 무역협회 시작 -->
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="portfolio-item">
                             <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal8">
@@ -204,32 +204,32 @@
                                 </div>
                                 <img class="mainImg" src="https://www.kita.net/imgs/logo.svg" alt="KITA한국무역협회"/>
                                 <div class="portfolio-caption">
-	                                <div class="portfolio-caption-heading textBlack">2024.05 ~ 2024.09</div>
-	                                <div class="portfolio-caption-subheading text-muted textBlack">AI기술활용 회원서비스 고도화사업</div>
-	                            </div>
+                                    <div class="portfolio-caption-heading textBlack">2024.05 ~ 2024.09</div>
+                                    <div class="portfolio-caption-subheading text-muted textBlack">AI기술활용 회원서비스 고도화사업</div>
+                                </div>
                             </a>
                         </div>
                     </div>
                     <!-- 무역협회 끝 -->
 
-					<!-- 한국은행 시작 -->
+                    <!-- 한국은행 시작 -->
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="portfolio-item">
                             <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal7">
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="mainImg" src="	https://static-cdn.bok.or.kr/static/portal/img/main/logo.png" alt="한국은행"/>
+                                <img class="mainImg" src="  https://static-cdn.bok.or.kr/static/portal/img/main/logo.png" alt="한국은행"/>
                                 <div class="portfolio-caption">
-	                                <div class="portfolio-caption-heading">2023.08 ~ 2024.04</div>
-	                                <div class="portfolio-caption-subheading text-muted">한국은행 직원평가 시스템 재구축 개발 용역</div>
-	                            </div>
+                                    <div class="portfolio-caption-heading">2023.08 ~ 2024.04</div>
+                                    <div class="portfolio-caption-subheading text-muted">한국은행 직원평가 시스템 재구축 개발 용역</div>
+                                </div>
                             </a>
                         </div>
                     </div>
                     <!-- 한국은행 끝 -->
 
-					<!-- 인천중구 교육포털 구축 시작 -->
+                    <!-- 인천중구 교육포털 구축 시작 -->
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="portfolio-item">
                             <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
@@ -238,15 +238,15 @@
                                 </div>
                                 <img class="mainImg" style="margin-left: 100px;" src="https://www.icjg.go.kr/humanframe/theme/icjg/assets/images/common/logo.gif" alt="인천중구교육포털배우는바다"/>
                                 <div class="portfolio-caption">
-	                                <div class="portfolio-caption-heading">2022.12 ~ 2023.07</div>
-	                                <div class="portfolio-caption-subheading text-muted">평생학습센터 홈페이지 고도화를 통한 인천중구 교육포털 구축용역</div>
-	                            </div>
+                                    <div class="portfolio-caption-heading">2022.12 ~ 2023.07</div>
+                                    <div class="portfolio-caption-subheading text-muted">평생학습센터 홈페이지 고도화를 통한 인천중구 교육포털 구축용역</div>
+                                </div>
                             </a>
                         </div>
                     </div>
                     <!-- 인천중구 교육포털 구축 끝 -->
 
-					<!-- 지하정보 시작 -->
+                    <!-- 지하정보 시작 -->
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="portfolio-item">
                             <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
@@ -255,15 +255,15 @@
                                 </div>
                                 <img class="mainImg" style="width:50%;margin-left: 100px;" src="css/seoul.png" alt="서울특별시"/>
                                 <div class="portfolio-caption">
-	                                <div class="portfolio-caption-heading">2021.10 ~ 2022.11</div>
-	                                <div class="portfolio-caption-subheading text-muted">지하정보 통합분석시스템 구축</div>
-	                            </div>
+                                    <div class="portfolio-caption-heading">2021.10 ~ 2022.11</div>
+                                    <div class="portfolio-caption-subheading text-muted">지하정보 통합분석시스템 구축</div>
+                                </div>
                             </a>
                         </div>
                     </div>
                     <!-- 지하정보 끝 -->
 
-					<!-- 토공작업 시작 -->
+                    <!-- 토공작업 시작 -->
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="portfolio-item">
                             <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4" style="text-decoration-line: none!important;">
@@ -271,16 +271,16 @@
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
                                 <div class="skillWork">연구과제</div>
-	                            <div class="portfolio-caption">
-	                                <div class="portfolio-caption-heading">2021.09 ~ 2021.10</div>
-	                                <div class="portfolio-caption-subheading text-muted" style="font-size:14px;">토공작업 자동화를 위한 양방향 실시간 3D 측량정보를 제공하는 스마트 건설기계 연동형 드론측량 시스템</div>
-	                            </div>
+                                <div class="portfolio-caption">
+                                    <div class="portfolio-caption-heading">2021.09 ~ 2021.10</div>
+                                    <div class="portfolio-caption-subheading text-muted" style="font-size:14px;">토공작업 자동화를 위한 양방향 실시간 3D 측량정보를 제공하는 스마트 건설기계 연동형 드론측량 시스템</div>
+                                </div>
                             </a>
                         </div>
                     </div>
                     <!-- 토공작업 끝 -->
 
-					<!-- 연구과제 시작 -->
+                    <!-- 연구과제 시작 -->
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="portfolio-item">
                             <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
@@ -288,16 +288,16 @@
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
                                 <div class="skillWork">연구과제</div>
-	                            <div class="portfolio-caption">
-	                                <div class="portfolio-caption-heading">2020.04 ~ 2021.09</div>
-	                                <div class="portfolio-caption-subheading text-muted"> ICT기술기반 도로관리 Total 플랫폼</div>
-	                            </div>
+                                <div class="portfolio-caption">
+                                    <div class="portfolio-caption-heading">2020.04 ~ 2021.09</div>
+                                    <div class="portfolio-caption-subheading text-muted"> ICT기술기반 도로관리 Total 플랫폼</div>
+                                </div>
                             </a>
                         </div>
                     </div>
                     <!-- 연구과제 끝 -->
 
-					<!-- GS건설 시작 -->
+                    <!-- GS건설 시작 -->
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="portfolio-item">
                             <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
@@ -305,16 +305,16 @@
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
                                 <img src="data:image/png;base64,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" alt="GS건설" style="margin-left: 62px;margin-bottom: -28px;"/>
-	                            <div class="portfolio-caption">
-	                                <div class="portfolio-caption-heading">2020.03 ~ 2020.04</div>
-	                                <div class="portfolio-caption-subheading text-muted">GS건설 영농형 태양광발전 영업지원 시스템 구축을 위한 GIS엔진 도입</div>
-	                            </div>
+                                <div class="portfolio-caption">
+                                    <div class="portfolio-caption-heading">2020.03 ~ 2020.04</div>
+                                    <div class="portfolio-caption-subheading text-muted">GS건설 영농형 태양광발전 영업지원 시스템 구축을 위한 GIS엔진 도입</div>
+                                </div>
                             </a>
                         </div>
                     </div>
                     <!-- GS건설 끝 -->
 
-					<!-- 빅데이터시스템 시작 -->
+                    <!-- 빅데이터시스템 시작 -->
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="portfolio-item">
                             <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
@@ -322,10 +322,10 @@
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
                                 <img class="mainImg" style="width:50%;margin-left: 100px;" src="css/seoul.png" alt="서울특별시"/>
-	                            <div class="portfolio-caption">
-	                                <div class="portfolio-caption-heading">2020.01 ~ 2020.05</div>
-	                                <div class="portfolio-caption-subheading text-muted">도로관리 빅데이터시스템 구축 </div>
-	                            </div>
+                                <div class="portfolio-caption">
+                                    <div class="portfolio-caption-heading">2020.01 ~ 2020.05</div>
+                                    <div class="portfolio-caption-subheading text-muted">도로관리 빅데이터시스템 구축 </div>
+                                </div>
                             </a>
                         </div>
                     </div>
@@ -351,19 +351,19 @@
 
         <!-- 빅데이터시스템 시작 -->
         <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-			<div class="modal-dialog">
-				<div class="modal-content overflowAuto">
-					<div class="close-modal" data-bs-dismiss="modal">
-						<img src="assets/img/close-icon.svg" alt="Close modal" />
-					</div>
-					<div class="container">
-						<div class="row justify-content-center">
-							<div class="col-lg-8 mxHeight825">
-								<div class="modal-body">
-									<h3 class="text-uppercase">도로관리 빅데이터시스템 구축 용역</h3>
+            <div class="modal-dialog">
+                <div class="modal-content overflowAuto">
+                    <div class="close-modal" data-bs-dismiss="modal">
+                        <img src="assets/img/close-icon.svg" alt="Close modal" />
+                    </div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8 mxHeight825">
+                                <div class="modal-body">
+                                    <h3 class="text-uppercase">도로관리 빅데이터시스템 구축 용역</h3>
                                     <p class="item-intro text-muted">발주사 : 서울시청</p>
                                     <div class="project1">
-                                    	<img style="width:50%;" src="css/seoul.png" alt="서울특별시"/>
+                                        <img style="width:50%;" src="css/seoul.png" alt="서울특별시"/>
                                     </div>
                                     <p>무한정보기술, 2020.01 ~ 2020.05 (약 5개월)</p>
                                     <hr>
@@ -378,15 +378,15 @@
                                         </li>
                                         <hr>
                                         <li>
-                                        	🍀 학교 졸업 후 사회에서의 첫 프로젝트로 간단한 버튼 옮기기부터 기능추가까지 진행했습니다.
+                                            🍀 학교 졸업 후 사회에서의 첫 프로젝트로 간단한 버튼 옮기기부터 기능추가까지 진행했습니다.
                                         </li>
                                     </ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- 빅데이터시스템 끝 -->
 
@@ -399,7 +399,7 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8 mxHeight825">
                                 <div class="modal-body">
-                                	<h3 class="text-uppercase">GS건설 영농형 태양광발전 영업지원 시스템 구축을 위한 GIS엔진 도입</h3>
+                                    <h3 class="text-uppercase">GS건설 영농형 태양광발전 영업지원 시스템 구축을 위한 GIS엔진 도입</h3>
                                     <p class="item-intro text-muted">발주사 : GS건설</p>
                                     <div class="project2"></div>
                                     <p>무한정보기술, 2020.03 ~ 2020.04(약 2개월)</p>
@@ -431,7 +431,7 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8 mxHeight825">
                                 <div class="modal-body">
-                                	<h3 class="text-uppercase">ICT기술기반 도로관리 Total 플랫폼</h3>
+                                    <h3 class="text-uppercase">ICT기술기반 도로관리 Total 플랫폼</h3>
                                     <p class="item-intro text-muted">발주사 : 산자부</p>
                                     <div class="project3">
                                     </div>
@@ -439,7 +439,7 @@
                                     <hr>
                                     <ul class="list-inline textLeft">
                                         <li>
-					    <strong>1. 화면 설계</strong>
+                        <strong>1. 화면 설계</strong>
                                             <p class="ms-1">- 시공지침서비스 화면 설계 및 DB 설계</p>
                                             <div class="mb-2"></div>
                                             <strong>2. 화면 기능 개발</strong>
@@ -452,8 +452,8 @@
                                         </li>
                                         <hr>
                                         <li>
-                                        	🍀 도로관리 빅데이터 시스템을 기반으로 한 연구 과제에서 총 9개의 프로젝트 중 4개를 개발했습니다.
-                                        	연구 노트를 작성하며 프로젝트를 체계적으로 정리하고 개발할 수 있었습니다. 특히 통계 서비스 개발 중 쿼리 작성의 중요성을 느끼며 <d class="strongText">쿼리 정리 능력</d>을 기를 수 있는 계기가 되었습니다.
+                                            🍀 도로관리 빅데이터 시스템을 기반으로 한 연구 과제에서 총 9개의 프로젝트 중 4개를 개발했습니다.
+                                            연구 노트를 작성하며 프로젝트를 체계적으로 정리하고 개발할 수 있었습니다. 특히 통계 서비스 개발 중 쿼리 작성의 중요성을 느끼며 <d class="strongText">쿼리 정리 능력</d>을 기를 수 있는 계기가 되었습니다.
                                         </li>
                                     </ul>
                                 </div>
@@ -508,16 +508,16 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8 mxHeight825">
                                 <div class="modal-body">
-	                                <h3 class="text-uppercase">지하정보 통합분석시스템 구축(1단계) 용역</h3>
+                                    <h3 class="text-uppercase">지하정보 통합분석시스템 구축(1단계) 용역</h3>
                                     <p class="item-intro text-muted">발주사 : 서울시청</p>
                                     <div class="project5">
-                                    	<img style="width:50%;" src="css/seoul.png" alt="서울특별시"/>
+                                        <img style="width:50%;" src="css/seoul.png" alt="서울특별시"/>
                                     </div>
                                     <p>무한정보기술, 2021.10 ~ 2022.11 (약 14개월)</p>
                                     <hr>
                                     <ul class="list-inline textLeft">
                                         <li>
-                                        	<strong>1. 제안서 작성</strong>
+                                            <strong>1. 제안서 작성</strong>
                                             <p class="ms-1">- 공동조사 분담금과 관련된 파트 작성</p>
                                             <div class="mb-2"></div>
                                             <strong>2. 화면 기능 개발</strong>
@@ -529,9 +529,9 @@
                                         </li>
                                         <hr>
                                         <li>
-                                        	🍀 서울시 도로관리과에서 주관하는 지하정보 통합 분석 프로젝트에 참여했습니다.
-                                        	다른 회사와의 첫<d class="strongText"> 협업 프로젝트</d>로서 제안서 작성부터 프로젝트 완료 보고까지 전반적인 회의에 참여할 기회를 가졌습니다.
-                                        	<br>🍀 이 경험을 통해 기능 개발 시 전체 프로세스를 이해하는 것이 중요하다는 것을 깨달았습니다.
+                                            🍀 서울시 도로관리과에서 주관하는 지하정보 통합 분석 프로젝트에 참여했습니다.
+                                            다른 회사와의 첫<d class="strongText"> 협업 프로젝트</d>로서 제안서 작성부터 프로젝트 완료 보고까지 전반적인 회의에 참여할 기회를 가졌습니다.
+                                            <br>🍀 이 경험을 통해 기능 개발 시 전체 프로세스를 이해하는 것이 중요하다는 것을 깨달았습니다.
                                         </li>
                                     </ul>
                                 </div>
@@ -552,14 +552,14 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8 mxHeight825">
                                 <div class="modal-body">
-                                	<h3 class="text-uppercase">평생학습센터 홈페이지 고도화를 통한<br>인천중구 교육포털 구축용역</h3>
+                                    <h3 class="text-uppercase">평생학습센터 홈페이지 고도화를 통한<br>인천중구 교육포털 구축용역</h3>
                                     <p class="item-intro text-muted">발주사 : 인천광역시 중구</p>
                                     <a href="https://edu.icjg.go.kr/" target='_blank'>
-	                                    <div class="slider">
-	                                    	<div class="project6"></div>
-	                                    	<div class="project6"></div>
-	                                    	<div class="project6"></div>
-										</div>
+                                        <div class="slider">
+                                            <div class="project6"></div>
+                                            <div class="project6"></div>
+                                            <div class="project6"></div>
+                                        </div>
                                     </a>
                                     <p>이즈파크, 2022.12 ~ 2023.07(약 8개월)</p>
                                     <hr>
@@ -577,8 +577,8 @@
                                         </li>
                                         <hr>
                                         <li>
-                                        	🍀 인천중구청의 평생학습센터 수강신청 프로세스에서 <d class="strongText">기관 관리, 강좌 관리, 수강 신청, 결제, 접수 취소 시 환불, 마이페이지 등 핵심 기능</d>을 담당했습니다.
-                                        	처음으로 주요 기능을 맡아 부담감이 있었지만, 오히려 중요한 핵심 기능을 맡아 꼼꼼하게 진행할 수 있었습니다.
+                                            🍀 인천중구청의 평생학습센터 수강신청 프로세스에서 <d class="strongText">기관 관리, 강좌 관리, 수강 신청, 결제, 접수 취소 시 환불, 마이페이지 등 핵심 기능</d>을 담당했습니다.
+                                            처음으로 주요 기능을 맡아 부담감이 있었지만, 오히려 중요한 핵심 기능을 맡아 꼼꼼하게 진행할 수 있었습니다.
                                         </li>
                                     </ul>
                                 </div>
@@ -602,16 +602,16 @@
                                     <h3 class="text-uppercase">한국은행 직원평가 시스템 재구축 개발 용역</h3>
                                     <p class="item-intro text-muted">발주사 : 한국은행</p>
                                     <div class="slider">
-                                    	<div class="project7"></div>
-                                    	<div class="project7"></div>
-                                    	<div class="project7"></div>
-									</div>
+                                        <div class="project7"></div>
+                                        <div class="project7"></div>
+                                        <div class="project7"></div>
+                                    </div>
                                     <p>이즈파크, 2023.08 ~ 2024.04(약 8개월)</p>
                                     <hr>
                                     <ul class="list-inline textLeft">
                                         <li>
-                                            <strong>1. 개발 PL예행연습</strong>
-                                            <p class="ms-1">- 짧은시간내에 많은 내용을 개발해야했기에 일정체크 후 남은기능 분배</p>
+                                            <strong>1. 개발 PL</strong>
+                                            <p class="ms-1">- 짧은 시간 내에 많은 기능을 개발해야 했기 때문에 일정 체크 후 남은 기능을 분배하고, 팀원들 개별능력을 확인하여 효율적으로 개발 진행</p>
                                             <div class="mb-2"></div>
                                             <strong>2. 화면 기능 개발</strong>
                                             <p class="ms-1">- eGovFrame을 기준으로 프로젝트 초기세팅</p>
@@ -624,8 +624,8 @@
                                         </li>
                                         <hr>
                                         <li>
-                                        	🍀 한국은행에서 사용하는 직원 평가 시스템을 구축하는 프로젝트에서<d class="strongText"> 초기 설정부터 성과 평가 및 결과 조정까지의 핵심 기능</d>을 담당했습니다.
-                                        	개발 PL 예행 연습을 하면서 인력 관리에 어려움이 있었지만, 프로젝트 팀원들과 협력하여 잘 마무리할 수 있었습니다.
+                                            🍀 한국은행에서 사용하는 직원 평가 시스템을 구축하는 프로젝트에서<d class="strongText"> 초기 설정부터 성과 평가 및 결과 조정까지의 핵심 기능</d>을 담당했습니다.
+                                            개발 PL 예행 연습을 하면서 인력 관리에 어려움이 있었지만, 프로젝트 팀원들과 협력하여 잘 마무리할 수 있었습니다.
                                         </li>
                                     </ul>
                                 </div>
@@ -641,57 +641,57 @@
         <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content overflowAuto">
-					<div class="close-modal" data-bs-dismiss="modal">
-						<img src="assets/img/close-icon.svg" alt="Close modal" />
-					</div>
-					<div class="container">
-	                    <div class="row justify-content-center">
-	                        <div class="col-lg-8 mxHeight825">
-	                            <div class="modal-body">
-	                                <h3 class="text-uppercase">AI기술활용 회원서비스 고도화사업</h3>
-	                                <p class="item-intro text-muted">발주사 : 무역협회</p>
-	                                <a href="https://www.kita.net/" target='_blank'>
-	                                 <div class="slider">
-	                                 	<div class="project8"></div>
-	                                 	<div class="project8"></div>
-	                                 	<div class="project8"></div>
-									</div>
-	                                </a>
-	                                <p>이즈파크, 2024.05 ~ 2024.09(약 5개월)</p>
-	                                <hr>
-	                                <ul class="list-inline textLeft">
-	                                    <li>
-	                                        <strong>1. AI API 연계</strong>
-	                                        <p class="ms-1">- 무역의날 행사 포상 신청서에 필요한 AI 맞춤법 검사, AI 요약화면 개발 및 AI API 연계 진행</p>
-	                                        <p class="ms-1">- OCR 검증(사업자등록증, 중소기업확인서, 중견 기업확인서 등)을 위해 네이버 클라우드와 연계하는 API를 호출 기능 개발</p>
-	                                        <div class="mb-2"></div>
-	                                        <strong>2. 화면 기능 개발</strong>
-	                                        <p class="ms-1">- 포상신청서에 필요한 AI 맞춤법검사, AI 요약 기능을 위한 화면 개발</p>
-	                                        <p class="ms-1">- 1:1상담, 오픈상담, AI 상담 등의 상담 전 AI를 이용한 질의응답  화면 개발</p>
-	                                        <p class="ms-1">- 무역의날 기념식 포상 수상자에 대한 QR 발송 기능 추가</p>
-	                                        <p class="ms-1">- 반응형 웹 개발로 다양한 디바이스에서 최적화된 화면 제공</p>
-	                                        <div class="mb-2"></div>
-	                                        <strong>3. 사용언어 / 소스 관리 / 배포</strong>
-	                                        <p class="ms-1">- Java, ORACLE, myBatis, JSP, JavaScript, jQuery</p>
-	                                        <p class="ms-1">- Git을 이용해 소스 관리</p>
-	                                        <p class="ms-1">- 칵테일 클라우드로 운영 배포</p>
-	                                    </li>
-	                                    <hr>
-	                                    <li>
-	                                    	🍀무역의 날 행사를 위한 기능 고도화 프로젝트에서는 포상 신청서에 AI 맞춤법 검사와 AI 요약 기능을 추가하였으며,
-	                                    	네이버 클라우드와 연계하여 API를 호출하는 기능을 구현했습니다.
-	                                    	또한, 반응형 웹으로 개발하여 퍼블리싱 관련 지식을 한층 더 확장하는 계기가 되었습니다.
-	                                    </li>
-	                                </ul>
-	                            </div>
-	                        </div>
-	                    </div>
-	                </div>
+                    <div class="close-modal" data-bs-dismiss="modal">
+                        <img src="assets/img/close-icon.svg" alt="Close modal" />
+                    </div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8 mxHeight825">
+                                <div class="modal-body">
+                                    <h3 class="text-uppercase">AI기술활용 회원서비스 고도화사업</h3>
+                                    <p class="item-intro text-muted">발주사 : 무역협회</p>
+                                    <a href="https://www.kita.net/" target='_blank'>
+                                     <div class="slider">
+                                        <div class="project8"></div>
+                                        <div class="project8"></div>
+                                        <div class="project8"></div>
+                                    </div>
+                                    </a>
+                                    <p>이즈파크, 2024.05 ~ 2024.09(약 5개월)</p>
+                                    <hr>
+                                    <ul class="list-inline textLeft">
+                                        <li>
+                                            <strong>1. AI API 연계</strong>
+                                            <p class="ms-1">- 무역의날 행사 포상 신청서에 필요한 AI 맞춤법 검사, AI 요약화면 개발 및 AI API 연계 진행</p>
+                                            <p class="ms-1">- OCR 검증(사업자등록증, 중소기업확인서, 중견 기업확인서 등)을 위해 네이버 클라우드와 연계하는 API를 호출 기능 개발</p>
+                                            <div class="mb-2"></div>
+                                            <strong>2. 화면 기능 개발</strong>
+                                            <p class="ms-1">- 포상신청서에 필요한 AI 맞춤법검사, AI 요약 기능을 위한 화면 개발</p>
+                                            <p class="ms-1">- 1:1상담, 오픈상담, AI 상담 등의 상담 전 AI를 이용한 질의응답  화면 개발</p>
+                                            <p class="ms-1">- 무역의날 기념식 포상 수상자에 대한 QR 발송 기능 추가</p>
+                                            <p class="ms-1">- 반응형 웹 개발로 다양한 디바이스에서 최적화된 화면 제공</p>
+                                            <div class="mb-2"></div>
+                                            <strong>3. 사용언어 / 소스 관리 / 배포</strong>
+                                            <p class="ms-1">- Java, ORACLE, myBatis, JSP, JavaScript, jQuery</p>
+                                            <p class="ms-1">- Git을 이용해 소스 관리</p>
+                                            <p class="ms-1">- 칵테일 클라우드로 운영 배포</p>
+                                        </li>
+                                        <hr>
+                                        <li>
+                                            🍀무역의 날 행사를 위한 기능 고도화 프로젝트에서는 포상 신청서에 AI 맞춤법 검사와 AI 요약 기능을 추가하였으며,
+                                            네이버 클라우드와 연계하여 API를 호출하는 기능을 구현했습니다.
+                                            또한, 반응형 웹으로 개발하여 퍼블리싱 관련 지식을 한층 더 확장하는 계기가 되었습니다.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <!-- 무역협회 끝 -->
-        
+
         <!-- 법무부 시작 -->
         <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
@@ -715,6 +715,7 @@
                                         <li>
                                             <strong>1. ETA 포탈 화면 기능 개발</strong>
                                             <p class="ms-1">- 회원가입, 회원 정보, 마이페이지, ETA 개별 신청 화면 등 ETA 신청 시 필요한 다양한 화면 개발</p>
+                                            <p class="ms-1">- 프로시저를 활용한 성능 개선 및 로직 단순화</p>
                                             <p class="ms-1">- 다양한 외부 업체와 협업 (이미지 프레소, OCR 서비스)하여 이미지 처리 및 텍스트 인식 기능 추가</p>
                                             <p class="ms-1">- 반응형 웹 개발로 다양한 디바이스에서 최적화된 화면 제공</p>
                                             <p class="ms-1">- 고객과의 소통을 통해 사용자 맞춤형 기능구현</p>
@@ -726,8 +727,8 @@
                                         <hr>
                                         <li>
                                             🍀 외국인들이 입국 시 신청해야하는 ETA 개별 신청기능을 만들었습니다.
-                                            OCR 판독, 이미지프레소 등을 사용하며 다양한 툴에 대한 지식을 습득하는 계기가 되었습니다.
-                                            ETA 신청 시 복잡하고 다양한 조건들이 많았으나, 고객과의 의사소통을 원활하게 해 쉽게 정리할 수 있었습니다. 
+                                            기존시스템에서 사용하던 로직 중 어렵고 불편한 내용이 있기에 프로시저를 활용하여 성능개선을 하였습니다.또한 OCR 판독, 이미지프레소 등을 사용하며 다양한 툴에 대한 지식을 습득하는 계기가 되었습니다.
+                                            ETA 신청 시 복잡하고 다양한 조건들이 많았으나, 고객과의 의사소통을 원활하게 해 쉽게 정리할 수 있었습니다.
                                         </li>
                                     </ul>
                                 </div>
@@ -738,8 +739,8 @@
             </div>
         </div>
         <!-- 법무부 끝 -->
-        
-        
+
+
 
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
